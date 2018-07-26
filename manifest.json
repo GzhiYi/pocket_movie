@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "口袋电影",
+  "description": "快速看豆瓣啦~",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "pocket-movie.png",
+    "default_popup": "window.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

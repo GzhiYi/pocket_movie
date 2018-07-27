@@ -7,7 +7,7 @@
 
   "browser_action": {
     "default_icon": "pocket-movie.png",
-    "default_popup": "window.html"
+    "default_popup": "./index.html"
   },
   "permissions": [
     "activeTab",
